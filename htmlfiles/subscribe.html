@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="..\font-awesome-4.5.0\css\font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<style>
+		html
+		{
+			min-height:100%;
+			min-width:100%;
+		}
+		body
+		{
+			margin:0px;
+			font-family: Josefin Sans;
+		}
+		.main_content_wrapper
+		{
+			min-height:100%;
+			min-width:100%;
+			background-image:url("background.png");
+		}
+		.main_header_wrapper
+		{
+			width:100%;
+			height:14%;
+			position:fixed;
+			background-color:#9e9e9e;
+		}
+		.main_footer_wrapper
+		{
+			width: 100%;
+			height: 6%;
+			bottom: 0;
+			position: fixed;
+			background-color:#9e9e9e;
+		}
+		.center_data_wrapper
+		{
+			width:100%;
+			position:absolute;
+			height:80%;
+			top:14%;
+		}
+		.header_buttons
+		{
+			height: 100%;
+			float: right;
+			width: 10%;
+			position: relative;
+			font-family:Helvetica;
+			font-size:18px;
+			line-height:5;
+		}
+		.logo_wrapper
+		{
+			
+			width:20%;
+			height:100%;
+			float:left;
+			position:relative;
+		}
+		.footer_icons
+		{
+			
+			height: 90%;
+			width: 3%;
+			float: right;
+			position: relative;
+			top: 5%;
+			margin-right: 0.3%;
+		}
+		.copyright_wrapper
+		{
+			padding:0.8%;
+			height:100;
+			float:left;
+		}
+		.search_wrapper
+		{
+			left:20%;
+			float:left;
+			width:50%;
+			height:100%;
+		}
+		.head_button
+		{
+			width:100%;
+			height:100%;
+			padding:0px 0px;
+			background-color:#9e9e9e;
+			border:none;
+			outline:none;
+			font-family: Josefin Sans;
+			font-size:20px;
+		}
+		.head_button:hover
+		{
+			background-color:#ffa500;
+			color:#FFFFFF;
+		}
+		.center_search
+		{
+			padding-top: 15%;
+		}
+		.button_save
+		{
+			width: 25%;
+			height: 18%;
+			padding: 0;
+			font-size: 30;
+			font-family: Josefin Sans;
+			background-color: #ffb300;
+			border-radius: 30px;
+			border-color: #ffb300;
+		}
+		.button_save:hover
+		{
+			background-color:#FFFFFF;
+			color:#ffb300;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<div id="main_container" class="main_content_wrapper">
+			<div id="header" class="main_header_wrapper">
+				<div id="logo" class="logo_wrapper"><a href="../test1.html"><img src="logo_14_2.png"></a></div>
+				<div id="search_container" class="search_wrapper"></div>
+				<div id="about_button" class="header_buttons" align="center"><a href="aboutus.html"><button class="head_button">About Us</button></div>
+				<div id="subscribe_button" class="header_buttons" align="center"><button class="head_button">Subscribe</button></a></div>
+				<div id="home_button" class="header_buttons" align="center"><a href="../home_page.html"><button class="head_button">Home</button></a></div>			
+			</div>
+			<div id="center_container" class="center_data_wrapper">
+				
+			<form action=" ">
+			<label></br>First Name: &nbsp;<input type="text" id="name_" name="t1">&nbsp;&nbsp;&nbsp;Last Name: &nbsp;<input type="text" name="t2"></label></br>
+			<label></br>Phone no.: &nbsp; &nbsp;<input type="text" name="t5"</label></br>
+			<label></br>Email ID: &nbsp; &nbsp; &nbsp;<input type="email" name="t7"></label></br><br>
+			<label></br>Gender: &nbsp;<input type="RADIO" name="R1" value="f">FEMALE<input type="radio" name="r2" value="m">MALE</label></br>
+			<input id="submit_button" type="SUBMIT" name="s1" onclick='alertbox();'><input type="RESET" name="r1"></br>
+			</form>
+	<script type="text/javascript">
+	function alertbox()
+	{
+	var name = document.getElementById('name_').value;
+	alert("Hello "+name+"! You have subscribed for our newsletter succesfully. You will be recieveing confirmation shortly.");
+	}
+	</script>
+				
+			</div>
+			<div id="footer" class="main_footer_wrapper">
+				<div id="copyright" class="copyright_wrapper">&copy;Copyrighted by Stage1 Projects</div>
+				<div id="google_icon" class="footer_icons"><a href="http://www.plus.google.com"><img src="google-icon.png" height="100%" width="100%"></a></div>
+				<div id="twitter_icon" class="footer_icons"><a href="http://www.twitter.com"><img src="twitter-icon.png" height="100%" width="100%"></a></div>
+				<div id="facebook_icon" class="footer_icons"><a href="http://www.facebook.com"><img src="facebook-icon.png" height="100%" width="100%"></a></div>
+			</div>
+		</div>
+	</body>
+</html>

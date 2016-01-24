@@ -1,0 +1,273 @@
+
+		*{
+			box-sizing: border-box;
+		 }
+		html
+		{
+			min-height:100%;
+			min-width:100%;
+		}
+		body
+		{
+			margin:0px;
+			font-family: Josefin Sans;
+		}
+		.main_content_wrapper
+		{
+			min-height:100%;
+			min-width:100%;
+			
+		}
+		.main_header_wrapper
+		{
+			width:100%;
+			height:14%;
+			position:fixed;
+			background-color:#9e9e9e;
+			box-shadow: 0 1px 4px #333;
+			z-index: 2;
+		}
+		.main_footer_wrapper
+		{
+			width: 100%;
+			height: 6%;
+			bottom: 0;
+			position:fixed;
+			background-color:#9e9e9e;
+			box-shadow: 0 1px 4px #333;
+		}
+		.center_data_wrapper
+		{
+			width:100%;
+			position:absolute;
+			height:80%;
+			top:14%;
+		}
+		.header_buttons
+		{
+			height: 100%;
+			float: right;
+			width: 10%;
+			position: relative;
+			font-size:18px;
+			line-height:5;
+		}
+		.logo_wrapper
+		{
+			
+			width:20%;
+			height:100%;
+			float:left;
+			position:relative;
+		}
+		.footer_icons
+		{
+			
+			height: 90%;
+			width: 3%;
+			float: right;
+			position: relative;
+			top: 5%;
+			margin-right: 0.3%;
+			box-shadow: 0 1px 4px #333;
+		}
+		.copyright_wrapper
+		{
+			padding:0.8%;
+			height:100;
+			float:left;
+		}
+		.search_wrapper
+		{
+			left:20%;
+			float:left;
+			width:50%;
+			height:100%;
+		}
+		.head_button
+		{
+			width:100%;
+			height:100%;
+			padding:0px 0px;
+			background-color:#9e9e9e;
+			border:none;
+			outline:none;
+			font-family: Josefin Sans;
+			font-size:20px;
+		}
+		.head_button:hover
+		{
+			background-color:#ffa500;
+			color:#FFFFFF;
+			box-shadow: .5px .5px 10px #747474;
+			text-shadow:1.5px 1.5px 3px #646464;
+		}
+		.center_container
+		{
+			width:100%;
+			height:100%;
+		}
+		.search_results
+		{
+			padding:8px 15px;
+            background:rgba(50, 50, 50, 0.5);
+            border:1.75px solid #ffa500;
+            color:#DFDFDF;
+		}
+		.search_results:focus{
+			color:#DFDFDF;
+		}
+		
+		#button_results
+		{
+			position:relative;
+            padding:8px 15px;
+            left:-8px;
+            border:1px solid #ffa500;
+            background-color:#ffa500;
+            color:#fafafa;
+		}
+		.search_results_bar
+		{
+			
+			height: 100%;
+			width: 100%;
+			line-height: 5;
+		}
+		
+		.container
+		{
+			display: inline-block;
+			margin: 1%;
+			height: 60%;
+			width: 15%;
+			padding: 0px;
+			text-overflow: ellipsis;
+			
+		}
+		.container:hover{
+			box-shadow: 1px 1px 30px #707070;
+		}
+		
+		.redirect:link
+		{
+		text-decoration:none;
+		color:black;
+		}
+		.redirect:visited
+		{
+		text-decoration:none;
+		color:black;
+		}
+		.pimage 
+		{
+			height: 55%;
+			margin-top: 0%;
+			padding-top: 4;
+			
+		}
+		
+		.pimage img
+		{
+			height: 100%;
+			max-width: 100%;		
+		}
+		
+		.pname 
+		{
+			height: 10%;
+			text-align: center;
+			line-height: 100%;
+			padding: 5%;
+			text-overflow: ellipsis;
+		}
+		
+		.pprice 
+		{
+			height: 10%;
+			text-align: center;
+			font-weight:bold;
+		}
+		
+		.psite 
+		{
+			height: 15%;
+			text-align: center;
+		}
+				
+		.psite img
+		{
+			padding-bottom:0px;
+			background-color:#005387;
+			height: 100%;
+			width:98%;
+		}
+		
+		li
+		{
+			/*border:1px solid black;*/
+			text-align:center;
+			vertical-align:baseline;
+			text-overflow:ellipsis;
+			white-space:nowrap;
+			overflow:hidden;
+		}
+
+		.product 
+		{
+			margin: 0px;
+			padding: 0px;
+			height: 100%;
+			width: 100%;
+		}
+		strong{
+			color:crimson;
+
+		}
+		.loading2{
+			display:block;
+			margin-right:auto;
+			margin-left:auto;
+		}
+		
+		.loader {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url('loading_cart.gif') 50% 50% no-repeat rgb(249,249,249);
+		}
+		
+		.redirect:link{
+			text-decoration:none;
+			color:black;
+		}
+		
+		.redirect:visited{
+			text-decoration:none;
+			color:black;
+		}
+
+
+		.filters
+		{
+		background-color:#E0E0E0;
+		height:5%;
+		}
+		.left-item{
+		width:50%;
+		float:left;
+		border:2px dashed black;
+		}
+		
+		.right-item{
+		width:50%;
+		float:right;
+		border:2px dashed black;
+		}
+		
+		li.pcompare {
+    padding-top: 4%;
+		}

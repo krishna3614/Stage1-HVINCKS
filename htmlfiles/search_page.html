@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Search</title>
+		<link rel="stylesheet" href="..\font-awesome-4.5.0\css\font-awesome.min.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="../js/newflipkart.js" type="text/javascript"></script>
+		<script src="../js/newebay.js" type="text/javascript"></script>
+		<script src= "../js/newsearching.js" type="text/javascript"></script>
+		<link href='http://fonts.googleapis.com/css?family=Josefin+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+		<link rel="stylesheet" type="text/css" href="searchstyle.css">
+		<script type="text/javascript">
+		$(window).load(function() {
+		$(".loader").fadeOut("slow");
+		})
+		</script>
+		
+		
+		
+	</head>
+	<body>
+		<div id="main_container" class="main_content_wrapper">
+			<div id="header" class="main_header_wrapper">
+				<div id="logo" class="logo_wrapper"><a href="../test1.html"><img src="logo_14_2.png"></a></div>
+				<div id="search_container" class="search_wrapper">
+					<div id="search_res" class="search_results_bar" align="center">
+						<input id="main_search" class="search_results" type="text" size="50" onkeydown = "if(event.keyCode == 13)document.getElementById('button_results').click()" placeholder="Search..." required>
+						<input id="button_results" type="button" value="Search" onclick='searchterm();'>
+					</div>
+				</div>
+				<div id="about_button" class="header_buttons" align="center"><a href="aboutus.html"><button class="head_button">About Us</button></div>
+				<div id="subscribe_button" class="header_buttons" align="center"><a href="subscribe.html"><button class="head_button">Subscribe</button></a></div>
+				<div id="home_button" class="header_buttons" align="center"><a href="../home_page.html"><button class="head_button">Home</button></a></div>			
+			</div>
+			
+			
+				
+				
+			<div id="center_contain" class="center_data_wrapper">
+				<div class="search_header"></div>
+				<div class="filter_container"></div>
+				<div class="center_container" id="center_section">
+				
+				</div>
+			</div>
+
+
+
+
+
+			<div class="loader"></div>
+			
+		</div>
+		<div id="footer" class="main_footer_wrapper">
+				<div id="copyright" class="copyright_wrapper">&copy;Copyrighted by Stage1 Projects</div>
+				<div id="google_icon" class="footer_icons"><a href="http://www.plus.google.com"><img src="google-icon.png" height="100%" width="100%"></a></div>
+				<div id="twitter_icon" class="footer_icons"><a href="http://www.twitter.com"><img src="twitter-icon.png" height="100%" width="100%"></a></div>
+				<div id="facebook_icon" class="footer_icons"><a href="http://www.facebook.com"><img src="facebook-icon.png" height="100%" width="100%"></a></div>
+		</div>
+	</body>
+</html>
